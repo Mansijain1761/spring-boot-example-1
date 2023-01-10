@@ -60,7 +60,7 @@ When you use maven to package or test, you can see if the test passes or fails (
 ~~~
 
 
-To see the unit test fail, edit `String greeting`string in the `HelloController` class.
+To see unit test fail, edit `String greeting`string in the `HelloController` class.
 
 Example:
 
