@@ -56,18 +56,18 @@ pipeline{
     }
     post {
            success{
-                emailext to: "mansi.jain@knoldus.com",
+                emailext to: "onlinesuitparadise@gmail.com",
                 subject: "Test Email Sucess",
                 body: "Test Success"
             }
 
             failure{
-                emailext to: "mansi.jain@knoldus.com",
+                emailext to: "onlinesuitparadise@gmail.com",
                 subject: "Test Email Failure",
                 body: "Test Failure"
             }
         always {
-            emailext body: 'abcdedve', subject: 'abcde', to: "mansi.jain@knoldus.com"
+            emailext body: 'abcdedve', subject: 'abcde', to: "onlinesuitparadise@gmail.com"
            }
     }
 }
