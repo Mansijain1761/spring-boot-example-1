@@ -42,7 +42,7 @@ pipeline{
                 echo "Hello world"
                     }
             }
-        }
+
            stage('Parallel and archiving') {
           parallel {
 
