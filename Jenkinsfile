@@ -39,7 +39,7 @@ pipeline{
             }
            stage('Hello print') {
             steps {
-                echo "Hello world"
+                echo "Hell"
                     }
             }
 
