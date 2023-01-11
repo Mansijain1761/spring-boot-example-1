@@ -37,6 +37,12 @@ pipeline{
                 
 
             }
+           stage('Hello print') {
+            steps {
+                echo "Hello world"
+                    }
+            }
+        }
            stage('Parallel and archiving') {
           parallel {
 
@@ -67,7 +73,7 @@ pipeline{
                 body: "Test Failure"
             }
         always {
-            emailext body: 'abcdedve', subject: 'abcde', to: "onlinesuitparadise@gmail.com"
+            emailext body:"demo", subject: "demo", to: "onlinesuitparadise@gmail.com"
            }
     }
 }
