@@ -67,7 +67,7 @@ pipeline{
                 body: "Test Failure"
             }
         always {
-            emailext body: 'abcd', subject: 'abcd', to: 'mansi.wisethink@gmail.com'
+            emailext body: 'abcdedv', subject: 'abcd', to: 'mansi.wisethink@gmail.com'
            }
     }
 }
