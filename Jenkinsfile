@@ -60,7 +60,6 @@ pipeline{
           }
         }
     }
-}
     post {
            success{
                 emailext to: "onlinesuitparadise@gmail.com",
