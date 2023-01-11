@@ -53,7 +53,7 @@ pipeline{
             }
              stage('Archiving') {
               steps {
-               sh 'echo "Artifact" > test1.txt'
+               sh 'echo "Artifact file printed" > test1.txt'
                 archiveArtifacts artifacts: 'test1.txt'
                 }
               }
